@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="AssignmentRedo" type="Project" date="2019-03-23" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.154" stddev = "0.533" max = "3">
+         <Value name="main" source ="AssignmentRedo.java" package ="(default package)" value ="3"/>
+         <Value name="ManHours1" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="ManHours2" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="Report" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="adjustManHour" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="eFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="tFactor" source ="TFactor.java" package ="(default package)" value ="1"/>
+         <Value name="getActor" source ="UUCP.java" package ="(default package)" value ="1"/>
+         <Value name="getUse" source ="UUCP.java" package ="(default package)" value ="1"/>
+         <Value name="actor" source ="actorWeight.java" package ="(default package)" value ="1"/>
+         <Value name="getEFactor" source ="experienceFactor.java" package ="(default package)" value ="1"/>
+         <Value name="getTFactor" source ="technicalFactor.java" package ="(default package)" value ="1"/>
+         <Value name="use" source ="useCaseWeight.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "2.462" stddev = "3.692" max = "13" maxinrange="false">
+         <Value name="getTFactor" source ="technicalFactor.java" package ="(default package)" value ="13" inrange="false"/>
+         <Value name="getEFactor" source ="experienceFactor.java" package ="(default package)" value ="8" inrange="false"/>
+         <Value name="getActor" source ="UUCP.java" package ="(default package)" value ="3"/>
+         <Value name="getUse" source ="UUCP.java" package ="(default package)" value ="3"/>
+         <Value name="ManHours1" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="ManHours2" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="Report" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="adjustManHour" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="eFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="tFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="actor" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="use" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1" stddev = "0" max = "1">
+         <Value name="ManHours1" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="ManHours2" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="Report" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="adjustManHour" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+         <Value name="eFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="tFactor" source ="TFactor.java" package ="(default package)" value ="1"/>
+         <Value name="getActor" source ="UUCP.java" package ="(default package)" value ="1"/>
+         <Value name="getUse" source ="UUCP.java" package ="(default package)" value ="1"/>
+         <Value name="actor" source ="actorWeight.java" package ="(default package)" value ="1"/>
+         <Value name="getEFactor" source ="experienceFactor.java" package ="(default package)" value ="1"/>
+         <Value name="getTFactor" source ="technicalFactor.java" package ="(default package)" value ="1"/>
+         <Value name="use" source ="useCaseWeight.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="(default package)" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "2.375" stddev = "0.696" max = "3">
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="3"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="3"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="3"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="3"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="2"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="2"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="2"/>
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "15" avg = "1.875" stddev = "1.965" max = "7">
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="7"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="2"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="1"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="1"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="1"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="1"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "7" avg = "0.875" stddev = "1.053" max = "3">
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="3"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="2"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="1"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="1"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="0"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.125" stddev = "0.331" max = "1">
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="1"/>
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="0"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "27" avg = "3.375" stddev = "4.715" max = "13">
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="13"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="8"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="6"/>
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="0"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "8" avg = "1" stddev = "0.5" max = "2">
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="2"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="1"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="1"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="1"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="1"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="1"/>
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "5" avg = "0.625" stddev = "1.654" max = "5">
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="5"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="0"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="AssignmentRedo" source ="AssignmentRedo.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UUCP" source ="UUCP.java" package ="(default package)" value ="0"/>
+         <Value name="actorWeight" source ="actorWeight.java" package ="(default package)" value ="0"/>
+         <Value name="experienceFactor" source ="experienceFactor.java" package ="(default package)" value ="0"/>
+         <Value name="technicalFactor" source ="technicalFactor.java" package ="(default package)" value ="0"/>
+         <Value name="useCaseWeight" source ="useCaseWeight.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "8" avg = "8" stddev = "0" max = "8">
+         <Value name="(default package)" package ="(default package)" value ="8"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="207"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "156" avg = "12" stddev = "26.13" max = "102">
+         <Value name="main" source ="AssignmentRedo.java" package ="(default package)" value ="102"/>
+         <Value name="getTFactor" source ="technicalFactor.java" package ="(default package)" value ="13"/>
+         <Value name="getEFactor" source ="experienceFactor.java" package ="(default package)" value ="8"/>
+         <Value name="ManHours1" source ="AssignmentRedo.java" package ="(default package)" value ="4"/>
+         <Value name="ManHours2" source ="AssignmentRedo.java" package ="(default package)" value ="4"/>
+         <Value name="tFactor" source ="TFactor.java" package ="(default package)" value ="4"/>
+         <Value name="Report" source ="AssignmentRedo.java" package ="(default package)" value ="3"/>
+         <Value name="adjustManHour" source ="AssignmentRedo.java" package ="(default package)" value ="3"/>
+         <Value name="eFactor" source ="EFactor.java" package ="(default package)" value ="3"/>
+         <Value name="getActor" source ="UUCP.java" package ="(default package)" value ="3"/>
+         <Value name="getUse" source ="UUCP.java" package ="(default package)" value ="3"/>
+         <Value name="actor" source ="actorWeight.java" package ="(default package)" value ="3"/>
+         <Value name="use" source ="useCaseWeight.java" package ="(default package)" value ="3"/>
+      </Values>
+   </Metric>
+   </Metrics>
